@@ -1,8 +1,9 @@
  
-/*import React, { useRef } from "react";
-import Home from "./Home";
+ import React, { useRef } from "react";
+import Home from "./Home1";
 import './Login.css'
-const Login = () => {
+
+ const Login = () => {
     const email=useRef()
     const password=useRef()
     const getEmail=localStorage.getItem("emailData")
@@ -25,9 +26,8 @@ const Login = () => {
          <form action="#"  onSubmit={handleSubmit}>
            <input type="text" placeholder="Enter your email" ref={email}/>
            <input type="password" placeholder="Enter your password" ref={password}/>
-       <button>login</button>
-            
-
+          <button className="button">Login</button>
+  
           </form>
 }
        
@@ -39,7 +39,7 @@ const Login = () => {
   )
 }
 
-export default Login*/
+export default Login
 
 
 
@@ -57,7 +57,7 @@ export default Login*/
 
 
 
- import React, { useRef } from "react";
+ /*import React, { useRef } from "react";
 import Home from "./Home";
  
 function Login(){
@@ -90,4 +90,4 @@ function Login(){
         </div>
     );
 }
-export default Login  
+export default Login  */

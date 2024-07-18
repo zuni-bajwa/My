@@ -1,15 +1,16 @@
-import React from "react";
-
-function Home() {
-    const handleClick=()=>{
-        localStorage.clear();
-        window.location.reload();
-    }
-    return (
-        <>
-            <h1>Home Page</h1>
-            <button onClick={handleClick}>Logout</button>
-        </>
-    )
+import React from 'react'
+import Haed from './Haed'
+import Video from './Video'
+import Footer from './Footer'
+import List from './List'
+const Home = () => {
+  return (
+    <div>
+      <Haed />
+      <Video />
+     
+     </div>
+  )
 }
-export default Home;
+
+export default Home

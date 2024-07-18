@@ -1,0 +1,82 @@
+ 
+ .nav-item2 a {
+  text-decoration: none;
+  }
+ 
+.product-sum{
+      width: 100%;
+     
+ 
+     transition: all 0.3s ease-in-out;
+      border: 1px solid rgba(0,  0,  0,  0.2);
+       border-radius: 5px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+      .product-sum .brandd{
+         cursor: pointer;
+       
+        }
+        .product-sum  .btnn{
+         padding: 2px 15px;
+         font-size: 18px;
+         text-transform: capitalize;
+        }
+        .product-sum h4{
+         font-size: 18px;
+         font-weight: 600;
+         text-transform: capitalize;
+      }
+        .product-sum .badge{
+         background-color: red;
+         position:absolute;
+         padding: 15px 25px;
+         font-size: 15px;
+         top: 0;
+         left: 0;
+         display: inline-block;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-bottom-right-radius: 50px;  text-transform: capitalize;
+ 
+ 
+ 
+ 
+ 
+         }
+       .product-sum img{ transition: all 0.3s ease-in-out; 
+        }
+        img:hover{
+         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+       }
+   
+ 
+ .product-sum:hover   img{transform: scale(1.1);}
+ 
+ .information{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .card-img{
+  height: 300px;
+  width: 350px;
+ }
+ 
+ .product-price1 {
+     font-size: 18px;
+     color: #fbb72c;
+     font-weight: 600;
+ }
+ 
+ .product-price1 small {
+     font-size: 80%;
+     font-weight: 400;
+     text-decoration: line-through;
+     display: inline-block;
+     margin-right: 5px;
+ }
+ 
+ 

@@ -1,0 +1,47 @@
+/* Hide the default radio button */
+input[type="radio"] {
+    display: none;
+  }
+  
+  /* Create a custom radio button */
+  .sidebar-label-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+  }
+  
+  .checkmark {
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-label-container input:checked + .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .sidebar-label-container input:checked + .checkmark:after {
+    display: block;
+  }
+  
+  .sidebar-label-container .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+  }
+  

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .main-navbar{
+   border-bottom: 1px solid #232f3e ;
+  }
+  .main-navbar .top-navbar{
+    background-color:#131921 ;
+
+   padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  .main-navbar .top-navbar .brand-name{
+  color: #fff;
+  }
+  .main-navbar .top-navbar .nav-link{
+  color:  #fff ;
+  font-size: 21px;
+  font-weight: 400;
+  }
+  .main-navbar .top-navbar .dropdown-menu{
+  padding: 0px 0px;
+  border-radius: 0px;
+  }
+  .main-navbar .top-navbar .dropdown-menu .dropdown-item{
+  padding: 8px 16px;
+   font-size: 14px;
+   border-bottom: 1px solid #ccc;
+  
+  }
+  .main-navbar .top-navbar .dropdown-menu .dropdown-item i{
+
+  width: 20px;
+  text-align: center;
+  color: #2874f0;
+  font-size: 14px;
+  }
+  .main-navbar .navbar{
+  padding: 0px;
+  background-color: #232f3e;
+  }
+  .main-navbar .navbar .nav-item .nav-link{
+  color: #000;
+  font-size: 15px;
+  padding: 8px 10px;
+     
+  }
+  .img1{
+    height: 77;
+    width: 215;
+    font-weight: 750;
+    
+    font-size:25px;
+      font-style: italic;
+    
+     color: #febd69;
+     cursor: pointer;
+    
+   }
+   
+    .nav-item a {
+      text-decoration: none;
+    }
+   
+    .nav-item1 a {
+      text-decoration: none;
+      color: #febd69;
+
+    }
+   
+  .select{
+  
+    width: 50px;
+    
+    border-radius: 6px;
+    background-color:#e6e6e6 ;    
+
+    
+    
+    }
+    select{
+ background-color:#e6e6e6 ;    
+     border-radius: 5px;
+    
+    }
+   
+    .badge{
+      width: 22px;
+      height: 22px;
+        color: white;
+        right: 14px;
+        position: absolute;
+       background-color: #febd69 ;
+       margin-top: -7px;
+      }
+     .btn{
+      background-color: #febd69 ;
+
+     }
+     .btn:hover{
+      background-color: #febd69 ;
+
+     }
+     .fo{
+      font-size: small;
+      }
+
+      .menu{
+        position: absolute;
+        top: 40px;
+      right: 10px;
+padding: 10px 0px;
+          height: auto;
+          width: 200px;
+           box-shadow: 0 3px 6px rgba( 0 0 0 /20%);
+   background-color:  #fff;
+   z-index: 100;
+  
+
+      }
+      
+    .menu li{
+     
+      width: 100%;
+      list-style: none;
+    }
+    .menu li button{
+      text-align: left;
+      font-size: 16px;
+      padding: 10px 15px;
+      width: 100%;
+      justify-content: flex-start;
+    }
+    .menu li button svg{
+       margin-right: 8px;
+    }
+  .location{
+   
+   font-size: 16px;
+   margin-left: 15px;
+   outline: none;
+   background-color:#e6e6e6 ;   
+   border-radius: 5px; 
+   padding: 7px 7px;
+
+  }
+ 
