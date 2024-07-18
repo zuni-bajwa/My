@@ -50,7 +50,7 @@ import Product15 from './Product15';
     return (
      <>
    
- <Router>
+ <Router  basename="/My">
  <Top />
    <Provider store={store}>
     
