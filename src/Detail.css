@@ -1,9 +1,12 @@
 .all{
   max-width: 1200px;
   width: 100%;
-  margin: 100px auto;
+  margin: 6px auto;
   box-shadow: 0 0 5px #ccc;
 
+}
+.detai{
+   padding-top: 6px;
 }
 .details{
   display: flex;
@@ -62,8 +65,8 @@
   border: 1px solid lightseagreen;
 }
  .cart{
-  background: #333;
-  color: white;
+  background-color: #febd69 ;
+  color: black;
   outline: none;
   border: none;
   cursor: pointer;

@@ -21,8 +21,12 @@ const Product6 = () => {
   };
   
   return (
+<> 
+<div class=" d-flex justify-content-center align-items-center h-100 detai ">
+<p><span class="h2">Detail Page</span></p>
 
-
+                    
+   </div> 
     <div class="card mb-3 all"  >
      
   <div class=" row g-0">
@@ -81,7 +85,7 @@ const Product6 = () => {
   </div>
 </div>
 
-
+</>
 
 
       )

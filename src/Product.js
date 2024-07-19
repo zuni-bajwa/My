@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import products from "./data";
 import Rating from '@mui/material/Rating';
   import { addto } from "./toll/Slice";
-
+import './Cart.css'
   import './Detail.css'
 const Product = () => {
   const { productId } = useParams();
@@ -21,9 +21,16 @@ const Product = () => {
   };
   
   return (
+ 
 
+<> 
+<div class=" d-flex justify-content-center align-items-center h-100 detai ">
+<p><span class="h2">Detail Page</span></p>
 
+                    
+   </div> 
     <div class="card mb-3 all"  >
+                       
   <div class=" row g-0">
     <div class=" col-md-6">
       <div className="details ">
@@ -80,7 +87,7 @@ const Product = () => {
   </div>
 </div>
 
-
+  </>
 
 
       )
