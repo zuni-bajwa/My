@@ -106,7 +106,7 @@ import { MdAccountCircle, MdShoppingCart, MdLocationOn } from 'react-icons/md'; 
          <option value="china">China</option>
                          </select>   
                          <Link to={'/login'}> 
-                         <li class="nav-item">
+                         <li class="nav-item sp">
                           
                              <a class="nav-link" href="#" >
                            < FaUser/>  

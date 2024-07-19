@@ -17,7 +17,8 @@ import Rating from './Rating';
    return (
     <> 
     <div className='ff'>
-    <div id="mySidebar " className={`sidebar shadow ${isOpen ? 'open' : 'closed'}`} >
+    
+      <div id="mySidebar " className={`sidebar shadow ${isOpen ? 'open' : 'closed'}`} >
           <div class="sidebar-header">
              <h3>Filters</h3>
             <button class="toggle-btn"  onClick={toggleNav} >
@@ -41,8 +42,10 @@ import Rating from './Rating';
         <i className="fas fa-star"></i> <span><Rating handleChange={ handleChange }/>  </span> 
 
         </div>
+      
+
       </div>
- 
+  
       <div id="main"  className={`main-content ${isOpen ? 'shifted' : ''}`}>
  
       <Show result={result}/>

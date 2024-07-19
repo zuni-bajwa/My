@@ -19,7 +19,7 @@
         cartitem.map(item=>{
           return(
           
-            <section class="vh-100" >
+            <section class="cart1" >
             <div class="container h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                <div class="col">

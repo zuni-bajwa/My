@@ -1,10 +1,11 @@
 import React from 'react'
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Product2 from './Product2';
 import Home from './Home';
 import Top from './Top';
-  import Product3 from './Product3';
+   import Product3 from './Product3';
  import Footer from './Footer';
 import './Responsive.css'
  import Video from './Video';
@@ -51,10 +52,11 @@ import Product15 from './Product15';
      <>
    
  <Router  basename="/My">
- <Top />
+  
    <Provider store={store}>
-    
- <Haed/>
+
+   <Top />
+   <Haed />
   
 <Routes>
  

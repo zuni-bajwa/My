@@ -1,8 +1,12 @@
  
- .nav-item2 a {
+ 
+  
+  .nav-item2 a {
   text-decoration: none;
   }
- 
+  .card-img{
+    height:18rem;
+   }
 .product-sum{
       width: 100%;
      
@@ -60,12 +64,8 @@
      align-items: center;
      justify-content: center;
  }
- .card-img{
-  height: 300px;
-  width: 350px;
- }
- 
- .product-price1 {
+  
+  .product-price1 {
      font-size: 18px;
      color: #fbb72c;
      font-weight: 600;
@@ -79,4 +79,18 @@
      margin-right: 5px;
  }
  
- 
+   .brand .btnn{
+  background-color:#fbb72c ;
+  color: black;
+ } 
+
+
+
+ @media only screen and (max-width: 768px) {
+  .card-img{
+    height:18rem;
+    width:  75%;
+   }
+
+  }
+     
