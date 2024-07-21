@@ -13,8 +13,8 @@ body {
   color: var(--text-color);
   }
  .sidebar {
-  height:218%;
-   width: 350px;
+  height: auto;
+    width: 350px;
     z-index: 3;
     position: absolute;  
      background-color: var(--sidebar-bg);
@@ -61,6 +61,7 @@ body {
   transition: margin-left .3s;
     margin-left: 350px;
      width: 100%;
+     height: auto;
    
    
 }
@@ -114,6 +115,6 @@ body {
   overflow: hidden;
   }
  .fff{
-    height: 1750px;
+     height: auto;
  }
- 
+  
