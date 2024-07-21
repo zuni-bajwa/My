@@ -16,42 +16,45 @@ import Rating from './Rating';
   };
    return (
     <> 
+    <div className='fff'>
     <div className='ff'>
     
-      <div id="mySidebar " className={`sidebar shadow ${isOpen ? 'open' : 'closed'}`} >
-          <div class="sidebar-header">
-             <h3>Filters</h3>
-            <button class="toggle-btn"  onClick={toggleNav} >
-                <i class="fas fa-bars"></i> 
-            </button>
-        </div>
-        <div className='ion'>
-        <i class="fas fa-folder"></i> <span> < Category handleChange={ handleChange }/></span> 
-
-        </div>
-        <div className='ion'>
-        <i class="fas fa-palette"></i> <span> < Color handleChange={ handleChange }/></span> 
-
-        </div>
-        <div className='ion'>
-        <i class="fas fa-dollar-sign"></i> <span>< Price handleChange={ handleChange }/>  </span> 
-
-        </div>
-
-        <div className='ion'>
-        <i className="fas fa-star"></i> <span><Rating handleChange={ handleChange }/>  </span> 
-
-        </div>
-      
+    <div id="mySidebar " className={`sidebar shadow ${isOpen ? 'open' : 'closed'}`} >
+        <div class="sidebar-header">
+           <h3>Filters</h3>
+          <button class="toggle-btn"  onClick={toggleNav} >
+              <i class="fas fa-bars"></i> 
+          </button>
+      </div>
+      <div className='ion'>
+      <i class="fas fa-folder"></i> <span> < Category handleChange={ handleChange }/></span> 
 
       </div>
-  
-      <div id="main"  className={`main-content ${isOpen ? 'shifted' : ''}`}>
- 
-      <Show result={result}/>
+      <div className='ion'>
+      <i class="fas fa-palette"></i> <span> < Color handleChange={ handleChange }/></span> 
 
       </div>
+      <div className='ion'>
+      <i class="fas fa-dollar-sign"></i> <span>< Price handleChange={ handleChange }/>  </span> 
+
+      </div>
+
+      <div className='ion'>
+      <i className="fas fa-star"></i> <span><Rating handleChange={ handleChange }/>  </span> 
+
+      </div>
+    
+
     </div>
+
+    <div id="main"  className={`main-content ${isOpen ? 'shifted' : ''}`}>
+
+    <Show result={result}/>
+
+    </div>
+  </div>
+    </div>
+    
      
     </>
    )

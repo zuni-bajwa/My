@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom'
   import p1 from './img/p1.jpg'
   import Video from './Video'
@@ -21,11 +22,21 @@ import { Link } from 'react-router-dom'
 
  import './List.css'
 const List = () => {
+  const [ width ,setwidth] = useState(window.innerWidth );
+  useEffect(() => {
+    const handleResize = () => {
+        setwidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+}, []); 
   return (
 
 <>
 <Video />
-<div>
+<div className='listing'>
+ 
+
        <h2 className='access column'>Our top accessories for you </h2>
        <div class="row row-cols-1 row-cols-md-4  g-3 row-cols-sm-2 list">
         
@@ -48,6 +59,8 @@ const List = () => {
        
               </div>
               </div>
+
+            
               <div class="col">
               <div class="card ">
               <Link to='/p3'>
@@ -150,15 +163,61 @@ const List = () => {
               </div>
             </div>
           </div>
- 
+          {
+                     window.innerWidth<767 &&
+                   <div>
+                     <div class="row row-cols-1 row-cols-md-4  g-3 row-cols-sm-2 list">
+        
+        <div class="col">
+          <div class="card ">
+            <Link to='/p13'>
+            <img src= {blacks5} class="card-img-top" alt="..."  />
+            </Link>
+           
+            <button class="price">USD 2.00</button>
+   
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+          <Link to='/p14'>
+            <img src= {whites3} class="card-img-top" alt="..."  />
+            </Link>
+             <button class="price">USD 2.00</button>
+   
+          </div>
+          </div>
+
+        
+          <div class="col">
+          <div class="card ">
+          <Link to='/p15'>
+            <img src= {shoes6} class="card-img-top" alt="..."  />
+            </Link>
+            <button class="price">USD 2.00</button>
+   
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+          <Link to='/p16'>
+            <img src= {blacks6} class="card-img-top" alt="..."  />
+            </Link>
+            <button class="price">USD 2.00</button>
+   
+          </div>
+          </div>
+          </div>
+                    </div>
+                  }
         <div className='ps'>
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <div className='row'>
+      <div className='row slider'>
         <div className='col-3'>
         <Link to='/p13'>
-        <img src={blacks5} class="d-block w-100" alt="..."/>
+        <img src={blacks5} class="d-block w-100 " alt="..."/>
       </Link>
         </div>
         <div className='col-3'>
@@ -198,7 +257,7 @@ const List = () => {
         </div>
         <div className='col-3'>
         <Link to='/p16'>
-        <img src={shoes6} class="d-block w-100" alt="..."/>
+        <img src={shoes6} class="d-block w-100 " alt="..."/>
         </Link>
         </div>
       </div>

@@ -6,11 +6,10 @@ body {
   
 
 
-
-
+ 
 .list{
-    padding: 10px 15px;
-    margin-top: 20px;
+   padding: 6px;
+    margin-top:5px;
    }
  
 
@@ -23,7 +22,10 @@ body {
 
 
 
- 
+ .listing{
+  margin-top: 20px;
+  padding-left: 10px;
+ }
 .access{
   font-size: xx-large;
     font-weight: 800;
@@ -33,7 +35,7 @@ body {
     top: 100px;
     left: 10px;
   border: none;
-  padding: 5px 15px;
+  padding: 2px 15px;
  text-align: center;
  text-decoration: none;
  display: inline-block;
@@ -64,4 +66,12 @@ top: 30px;
  .col{
     padding: 20px;
  }
+ @media only screen and (max-width: 767px) {
+  .ps{
+     display: none;
+  
+  }
+ 
+  }
+
  

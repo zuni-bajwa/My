@@ -13,7 +13,7 @@ body {
   color: var(--text-color);
   }
  .sidebar {
-  height:225%;
+  height:218%;
    width: 350px;
     z-index: 3;
     position: absolute;  
@@ -112,5 +112,8 @@ body {
 }
  .ff{
   overflow: hidden;
+  }
+ .fff{
+    height: 1750px;
  }
  
